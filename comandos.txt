@@ -1,0 +1,31 @@
+    1  git clone https://github.com/LinaMVG/21_ago_2023_Checkpoint-LinaVelasquez
+    2  cd 21_ago_2023_Checkpoint-LinaVelasquez
+    3  git remote -v
+    4  touch main.js index.html
+    5  git add main.js index.html
+    6  git commit -m "Agregando los  archivos main.js e index.html_LMVG"
+    7  git push origin main
+    8  git branch feature
+    9  git checkout feature
+   10  mkdir Hardware Software SeguridadInformatica
+   11  cd Hardware
+   12  touch resumen.txt
+   13  cd ..
+   14  cd Software
+   15  touch resumen.txt
+   16  cd ..
+   17  cd SeguridadInformatica
+   18  touch resumen.txt
+   19  cd ..
+   20  git add .
+   21  git commit -m "Agregadando las carpetas y archivos en la rama feature-LMVG"
+   22  git push origin feature
+   23  git checkout main
+   24  git mv main.js resumenHardware.txt
+   25  git mv index.html resumenSoftware.txt
+   26  git add resumenHardware.txt resumenSoftware.txt
+   27  git commit -m "Renombrando los  archivos y agregando las listas en main -LMVG"
+   28  git push origin main
+   29  git branch
+   30  touch comandos.txt
+   31  history > comandos.txt
